@@ -10,7 +10,8 @@ import ServicesSection from '../components/ServicesSection';
 import FounderSection from '../components/FounderSection';
 import TestimonialsSection from '../components/TestimonialsSection';
 import BookingSection from '../components/BookingSection';
-import ContactSection from '../components/ContactSection';
+import CommunityPartnersSection from '../components/CommunityPartnersSection';
+import EventsSection from '../components/EventsSection';
 import Footer from '../components/Footer';
 
 const LandingPage = () => {
@@ -27,7 +28,8 @@ const LandingPage = () => {
       <FounderSection />
       <TestimonialsSection />
       <BookingSection />
-      <ContactSection />
+      <EventsSection />
+      <CommunityPartnersSection />
       <Footer />
     </Box>
   );
